@@ -53,3 +53,8 @@ hs_err_pid*
 
 .idea/
 learn-ad-spring-cloud.iml
+/ad-eureka/target/
+ad-eureka/src/test/
+ad-eureka/target/classes/application.yml
+ad-eureka/target/generated-sources/
+src/
