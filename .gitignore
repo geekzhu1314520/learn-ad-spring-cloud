@@ -57,3 +57,7 @@ learn-ad-spring-cloud.iml
 ad-eureka/src/test/
 ad-eureka/target/classes/application.yml
 ad-eureka/target/generated-sources/
+/ad-gateway/target/
+ad-gateway/src/test/
+ad-gateway/target/classes/application.yml
+ad-gateway/target/generated-sources/

@@ -1,11 +1,10 @@
+server:
+  port: 9000
 spring:
   application:
     name: ad-gateway
-server:
-  port: 9000
 
 eureka:
-  instance:
+  client:
     service-url:
-      default-zone: http://server1/eureka/
-
+      defaultZone: http://localhost:8000/eureka/
