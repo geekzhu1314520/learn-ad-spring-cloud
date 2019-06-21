@@ -10,6 +10,7 @@ import com.watermelon.ad.vo.CreateUserRequest;
 import com.watermelon.ad.vo.CreateUserResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class AdUserServiceImpl implements IAdUserService {
@@ -22,6 +23,7 @@ public class AdUserServiceImpl implements IAdUserService {
     }
 
     @Override
+    @Transactional
     public CreateUserResponse createUser(CreateUserRequest request) throws AdException {
 
         if(!request.volidate()){
