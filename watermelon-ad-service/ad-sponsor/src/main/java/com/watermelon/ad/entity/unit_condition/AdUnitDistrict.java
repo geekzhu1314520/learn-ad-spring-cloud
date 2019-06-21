@@ -10,8 +10,8 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "ad_unit_keyword")
-public class AdUnitKeyword {
+@Table(name = "ad_unit_district")
+public class AdUnitDistrict {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,11 +23,16 @@ public class AdUnitKeyword {
     private Integer unitId;
 
     @Basic
-    @Column(name = "keyword", nullable = false)
-    private String keyword;
+    @Column(name = "province", nullable = false)
+    private String province;
 
-    public AdUnitKeyword(Integer unitId, String keyword) {
+    @Basic
+    @Column(name = "city", nullable = false)
+    private String city;
+
+    public AdUnitDistrict(Integer unitId, String province, String city) {
         this.unitId = unitId;
-        this.keyword = keyword;
+        this.province = province;
+        this.city = city;
     }
 }

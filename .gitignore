@@ -61,3 +61,4 @@ ad-eureka/target/generated-sources/
 ad-gateway/src/test/
 ad-gateway/target/classes/application.yml
 ad-gateway/target/generated-sources/
+/watermelon-ad-service/ad-sponsor/target/
