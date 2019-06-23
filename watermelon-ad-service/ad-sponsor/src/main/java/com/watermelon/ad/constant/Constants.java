@@ -7,5 +7,6 @@ public class Constants {
         public static final String SAME_NAME_ERROR = "存在同名的用户";
         public static final String CAN_NOT_FIND_RECORD = "找不到数据记录";
         public static final String SAME_PLAN_ERROR = "存在同名的计划";
+        public static final String SAME_UNIT_ERROR = "存在同名的单元";
     }
 }
