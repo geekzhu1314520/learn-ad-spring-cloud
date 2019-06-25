@@ -62,3 +62,5 @@ ad-gateway/src/test/
 ad-gateway/target/classes/application.yml
 ad-gateway/target/generated-sources/
 /watermelon-ad-service/ad-sponsor/target/
+/watermelon-ad-service/ad-search/target/
+/watermelon-ad-service/ad-common/target/
