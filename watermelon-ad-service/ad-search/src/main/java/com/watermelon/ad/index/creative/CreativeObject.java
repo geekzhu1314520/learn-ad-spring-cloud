@@ -16,7 +16,7 @@ public class CreativeObject {
     private Integer height;
     private Integer width;
     private Integer auditStatus;
-    private Long userId;
+    private String adUrl;
 
     public void update(CreativeObject newObject) {
         if (null != newObject.getAdId()) {
@@ -40,8 +40,8 @@ public class CreativeObject {
         if (null != newObject.getAuditStatus()) {
             this.auditStatus = newObject.getAuditStatus();
         }
-        if (null != newObject.getUserId()) {
-            this.userId = newObject.getUserId();
+        if (null != newObject.getAdUrl()) {
+            this.adUrl = newObject.getAdUrl();
         }
     }
 
